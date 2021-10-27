@@ -1,24 +1,28 @@
 {
-  "name": "arnz-api",
-  "version": "1.0.0",
-  "description": "res api website",
+  "name": "api-zhirrr",
+  "version": "1.1.0",
+  "description": "My Rest Api Projectttttt",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/LoliKillers/Arnz-Api.git"
+    "url": "git+https://github.com/Zhirrr/Zhirrr-Api.git"
   },
-  "author": "LolKill",
+  "keywords": [
+    "simple",
+    "api",
+    "rest",
+    "api"
+  ],
+  "author": "Zhirrr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LoliKillers/Arnz-Api/issues"
+    "url": "https://github.com/Zhirrr/Zhirrr-Api/issues"
   },
-  "homepage": "https://github.com/LoliKillers/Arnz-Api#readme",
   "dependencies": {
-    "@lolikillers/aexm-api": "github:Aexm47/AEXM47",
     "axios": "^0.21.1",
     "base-64": "^1.0.0",
     "base32": "0.0.6",
@@ -33,12 +37,13 @@
     "morgan": "^1.10.0",
     "needle": "^2.6.0",
     "node-fetch": "^2.6.1",
-    "qs": "^6.10.1",
     "request": "^2.88.2",
     "scrape-yt": "^1.4.8",
     "ssl-express-www": "^3.0.7",
+    "tiktok-scraper": "^1.4.12",
     "urlencode": "^1.1.0",
     "ytdl-core": "^4.4.5",
     "ytpl": "^2.0.5"
-  }
+  },
+  "homepage": "https://github.com/Zhirrr/Zhirrr-Api#readme"
 }
